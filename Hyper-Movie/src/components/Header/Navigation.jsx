@@ -8,12 +8,12 @@ export default function Navigation() {
             Film Review
           </p>
         </h1>
-        <ul className="hidden md:flex text-sm lg:text-base gap-6 uppercase">
+        <ul className="hidden md:flex text-sm lg:text-base gap-4 uppercase">
           <li>
             <a href="/">Movies</a>
           </li>
           <li>
-            <a href="/movies">Tv Shows</a>
+            <a href="/movies">Tv</a>
           </li>
           <li>
             <a href="/tv-shows">People</a>
@@ -24,7 +24,7 @@ export default function Navigation() {
         </ul>
       </div>
       <div className="hidden md:block text-sm lg:text-base ml-auto uppercase">
-        <ul className="flex gap-8">
+        <ul className="flex gap-4">
           <li>
             <a href="/login">Login</a>
           </li>

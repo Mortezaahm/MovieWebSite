@@ -1,3 +1,4 @@
+import PropTypes from "prop-types"; // Import PropTypes
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -47,3 +48,9 @@ export default function HeaderSlider({ setBackgroundImage, defaultImage }) {
     </div>
   );
 }
+
+// PropTypes validation
+HeaderSlider.propTypes = {
+  setBackgroundImage: PropTypes.func.isRequired, // Validate setBackgroundImage as a required function
+  defaultImage: PropTypes.string.isRequired, // Validate defaultImage as a required string
+};
