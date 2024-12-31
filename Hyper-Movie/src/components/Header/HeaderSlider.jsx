@@ -14,9 +14,21 @@ export default function HeaderSlider({ setBackgroundImage, defaultImage }) {
   return (
     <div className="mt-8">
       <Swiper
+        breakpoints={{
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+          },
+          1024: {
+            slidesPerView: 4,
+            spaceBetween: 40,
+          },
+        }}
         modules={[Autoplay]}
-        spaceBetween={20}
-        slidesPerView={3}
         autoplay={{ delay: 2500 }}
         loop
       >

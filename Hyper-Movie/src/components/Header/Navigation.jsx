@@ -8,7 +8,7 @@ export default function Navigation() {
             Film Review
           </p>
         </h1>
-        <ul className="flex gap-6 uppercase">
+        <ul className="hidden md:flex text-sm lg:text-base gap-6 uppercase">
           <li>
             <a href="/">Movies</a>
           </li>
@@ -23,7 +23,7 @@ export default function Navigation() {
           </li>
         </ul>
       </div>
-      <div className="flex ml-auto uppercase">
+      <div className="hidden md:block text-sm lg:text-base ml-auto uppercase">
         <ul className="flex gap-8">
           <li>
             <a href="/login">Login</a>
@@ -37,6 +37,23 @@ export default function Navigation() {
             </a>
           </li>
         </ul>
+      </div>
+      <div className="md:hidden ml-auto">
+        <button>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            fill="currentColor"
+            className="bi bi-list"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fillRule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+            />
+          </svg>
+        </button>
       </div>
     </nav>
   );
