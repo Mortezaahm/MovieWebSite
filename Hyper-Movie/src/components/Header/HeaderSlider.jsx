@@ -10,6 +10,7 @@ export default function HeaderSlider({ setBackgroundImage, defaultImage }) {
     "https://lumiere-a.akamaihd.net/v1/images/p_encanto_homeent_22359_4892ae1c.jpeg",
     "https://m.media-amazon.com/images/M/MV5BZGRmMGRhOWMtOTk3Ni00OTRjLTkyYTAtYzA1M2IzMGE3NGRkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     "https://m.media-amazon.com/images/M/MV5BMTg4MDk1ODExN15BMl5BanBnXkFtZTgwNzIyNjg3MDE@._V1_FMjpg_UX1000_.jpg",
+    "https://dx35vtwkllhj9.cloudfront.net/universalstudios/wicked/images/regions/us/onesheet-synopsis.jpg",
   ];
 
   return (

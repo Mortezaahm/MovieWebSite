@@ -1,6 +1,6 @@
 export default function Navigation() {
   return (
-    <nav className="container flex mt-10 items-center text-slate-300">
+    <nav className="container flex mt-10 items-center text-slate-300 bg-slate-900 -mx-1 -my-6 p-4 md:bg-transparent md:m-0 md:p-0">
       <div className="flex items-center">
         <h1 className="text-3xl mr-12">
           Hyper<span className="text-rose-600">Movies</span>
